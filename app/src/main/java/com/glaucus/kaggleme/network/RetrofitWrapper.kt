@@ -1,6 +1,6 @@
 package com.glaucus.kaggleme.network
 
-import okhttp3.CookieJar
+import com.glaucus.kaggleme.common.KAGGLE_LOGIN_URL
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 

@@ -16,7 +16,7 @@ fun BottomNavigationView.disableShiftMode() {
         val shiftingMode = menuView.javaClass.getDeclaredField("mShiftingMode")
         shiftingMode.isAccessible = true
         shiftingMode.setBoolean(menuView, false)
-        shiftingMode.isAccessible = false;
+        shiftingMode.isAccessible = false
         var i = 0
         while (i < menuView.childCount) {
             val item = menuView.getChildAt(i) as BottomNavigationItemView
